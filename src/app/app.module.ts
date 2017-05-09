@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { CustomFormsModule } from 'ng2-validation'
 import { HttpModule } from '@angular/http';
-import { APP_BASE_HREF } from '@angular/common';
 import 'hammerjs';
 
 //material design
@@ -45,7 +44,7 @@ import { DialogResultComponent } from './dialogs-game/dialog-result/dialog-resul
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [    { provide: APP_BASE_HREF, useValue: '/' }],
+  providers: [ ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
