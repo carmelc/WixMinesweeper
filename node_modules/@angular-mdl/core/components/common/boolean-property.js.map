@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../src/lib/components/common/boolean-property.ts"],"names":[],"mappings":"AAAA,MAAM,oBAAqB,KAAS;IAClC,MAAM,CAAC,KAAK,IAAI,IAAI,IAAI,KAAG,KAAO,KAAK,OAAO,CAAC;AACjD,CAAC","file":"boolean-property.js","sourceRoot":"","sourcesContent":["export function toBoolean (value:any): boolean {\n  return value != null && `${value}` !== 'false';\n}\n"]}
